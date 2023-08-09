@@ -23,6 +23,7 @@ header{
 h1{
     color: #543A35;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contenido{
@@ -98,7 +99,7 @@ img{
     box-sizing: border-box;
     background-color:#C95E1F;
     box-shadow: 0 1px 3px black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 .entrada{
@@ -116,6 +117,7 @@ img{
     margin: 0%;
     font-size: 22px;
     margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .form-basico .entrada label{
@@ -191,14 +193,14 @@ img{
 .form-basico input[type=button] {
     display: block;
     border-radius: 2px;
-    background-color: rgb(19, 19, 59);
+    background-color:#5e6b15;
     color: #ffffff;
     font-weight: bold;
     box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
     padding: 14px 22px;
     border: 0;
     margin: 40px 183px 0;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 
@@ -246,7 +248,7 @@ img{
     box-sizing: border-box;
     background-color:#C95E1F;
     box-shadow: 0 1px 3px black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 .entrada{
@@ -326,17 +328,17 @@ img{
     width: auto;
 }
 
-.form-basico input[type=button] {
+.form-validacion input[type=button] {
     display: block;
     border-radius: 2px;
-    background-color: rgb(19, 19, 59);
+    background-color: #5e6b15;
     color: #ffffff;
     font-weight: bold;
     box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
     padding: 14px 22px;
     border: 0;
     margin: 40px 183px 0;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 
