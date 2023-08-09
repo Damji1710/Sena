@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="icon" href="img/iconokyka.jpg" class="pes">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+
+</head>
+<script>
+    //funcion para un mensaje emergente//
+    function enviar() {
+        alert("Sus datos fueron enviados")
+    }
+</script>
+
+<body>
+    <header>
+        <h1>Formulario Básico</h1>
+    </header>
+
+      <!--contenedor del contenido-->
+    <div class="contenido"> 
+        <form class="form-basico" action="#">
+                <div class="titulo">
+                    <h2>Imput Basicos</h2>
+                </div>
+
+            <div class="entrada">
+                <label> Tipo texto</label>
+                <input type="text" placeholder="Nombre Completo"></input>
+            </div>
+            <div class="entrada">
+                <label>Tipo email</label>
+                <input type="email" placeholder="Ejemplo@gmail.com">
+            </div>
+            <div class="entrada">
+                <label>Tipo fecha</label>
+                <input type="date">
+            </div>
+             
+            <div class="entrada">
+                <label>menu desplegable</label>
+                <select name="select">
+                    <option value="">ninguna</option>
+                    <option value="">opcion 1</option>
+                    <option value="">opcion 2</option>
+                </select>
+            </div>
+            <div class="entrada">
+                <label>Tipo password</label>
+                <input type="password" placeholder="Ejemplo1234">
+            </div>
+
+            <div class="entrada">
+                <label>entrada tipo caja de verificación circular</label>
+                <div class="opciones">
+                    <div>
+                        <label>
+                            <input type="radio" name="radio"></input>
+                                <span>Opción 1</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="radio"></input>
+                        <span>Opción 2</span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="radio"></input>
+                        <span>Opción 3</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="entrada">
+                <label>Entrada area grande de texto</label>
+                <textarea name="textarea"></textarea>
+            </div>
+            <div class="entrada">
+                <label>Entrada caja de verificación</label>
+                <input type="checkbox"><label>acepto términos</label>
+            </div>
+            <div class="boton">
+                <input type="button" value="enviar" onclick="enviar">
+            </div>
+
+
+        </form>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="basico.html"class="activate">Básico</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="iniciar_sesion.html">Iniciar Sesión</a></li>
+            <li><a href="validacion.html">Validación</a></li>
+            <li><a href="busqueda.html">Busqueda</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
